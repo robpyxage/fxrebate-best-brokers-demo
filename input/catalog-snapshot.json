@@ -1,0 +1,856 @@
+{
+  "schema_version": "fxrebate.demo-readonly-catalog-snapshot/v1",
+  "generated_at": "2026-08-12T14:56:59.404Z",
+  "source": "Read-only projection of existing normalized-blog-broker-catalog.json; frozen for client handoff, not a second broker database.",
+  "brokers": [
+    {
+      "broker_id": "fxrb:dukascopy",
+      "canonical_broker_slug": "dukascopy",
+      "broker_name": "Dukascopy",
+      "fxrebate_broker_url": "https://fxrebate.eu/brokers/dukascopy",
+      "blog_article_url": "https://blog.fxrebate.eu/post/dukascopy-review-get-a-35-commission-rebate",
+      "platforms": [
+        {
+          "canonical": "mt4",
+          "status": "explicit_yes",
+          "value": "MT4",
+          "raw": "MT4",
+          "evidence": "In this comprehensive review, we will explore Dukascopy's world-class infrastructure, break down their MT4, MT5, and proprietary JForex platform options, and detail the exact cashback percentages you can earn across their vast asset portfolio.",
+          "source_url": "https://blog.fxrebate.eu/post/dukascopy-review-get-a-35-commission-rebate",
+          "confidence": "explicit"
+        },
+        {
+          "canonical": "mt5",
+          "status": "explicit_yes",
+          "value": "MT5",
+          "raw": "MT5",
+          "evidence": "In this comprehensive review, we will explore Dukascopy's world-class infrastructure, break down their MT4, MT5, and proprietary JForex platform options, and detail the exact cashback percentages you can earn across their vast asset portfolio.",
+          "source_url": "https://blog.fxrebate.eu/post/dukascopy-review-get-a-35-commission-rebate",
+          "confidence": "explicit"
+        },
+        {
+          "canonical": "proprietary-platform",
+          "status": "explicit_yes",
+          "value": "proprietary platform",
+          "raw": "proprietary platform",
+          "evidence": "JForex is Dukascopy's powerful proprietary platform, built specifically for the SWFX marketplace.",
+          "source_url": "https://blog.fxrebate.eu/post/dukascopy-review-get-a-35-commission-rebate",
+          "confidence": "explicit"
+        },
+        {
+          "canonical": "fix-api",
+          "status": "explicit_yes",
+          "value": "FIX API",
+          "raw": "FIX API",
+          "evidence": "By routing your custom strategies directly through the JForex API or FIX API, you unlock the highest tier: 35% commission rebate.",
+          "source_url": "https://blog.fxrebate.eu/post/dukascopy-review-get-a-35-commission-rebate",
+          "confidence": "explicit"
+        }
+      ],
+      "legal_entities_and_licenses": [
+        {
+          "entity_name": null,
+          "jurisdiction": null,
+          "regulator": null,
+          "license_reference": null,
+          "raw": "Heavily regulated by FINMA, ensuring the highest level of trust and capital protection.",
+          "evidence": "Heavily regulated by FINMA, ensuring the highest level of trust and capital protection.",
+          "source_url": "https://blog.fxrebate.eu/post/dukascopy-review-get-a-35-commission-rebate"
+        },
+        {
+          "entity_name": null,
+          "jurisdiction": null,
+          "regulator": null,
+          "license_reference": null,
+          "raw": "Its European subsidiary is additionally regulated by the FCMC in Latvia.",
+          "evidence": "Its European subsidiary is additionally regulated by the FCMC in Latvia.",
+          "source_url": "https://blog.fxrebate.eu/post/dukascopy-review-get-a-35-commission-rebate"
+        }
+      ],
+      "source_references": [
+        {
+          "url": "https://blog.fxrebate.eu/post/dukascopy-review-get-a-35-commission-rebate",
+          "content_sha256": "32238de6ef7bc831eb8cb2a14f1e0293822750661db4cdee2f278a57ec5d3315",
+          "extracted_at": "2026-08-12T08:18:59.068Z"
+        }
+      ]
+    },
+    {
+      "broker_id": "fxrb:fp-markets",
+      "canonical_broker_slug": "fp-markets",
+      "broker_name": "FP Markets",
+      "fxrebate_broker_url": "https://fxrebate.eu/brokers/fp-markets",
+      "blog_article_url": "https://blog.fxrebate.eu/post/fp-markets-rebate",
+      "platforms": [
+        {
+          "canonical": "mt4",
+          "status": "explicit_yes",
+          "value": "MT4",
+          "raw": "MT4",
+          "evidence": "In this comprehensive guide, we will provide a full presentation of FP Markets' services, explore their Standard and Raw account structures, their robust platform options (MT4, MT5, Iress), and detail the rebate rates available to you.",
+          "source_url": "https://blog.fxrebate.eu/post/fp-markets-rebate",
+          "confidence": "explicit"
+        },
+        {
+          "canonical": "mt5",
+          "status": "explicit_yes",
+          "value": "MT5",
+          "raw": "MT5",
+          "evidence": "In this comprehensive guide, we will provide a full presentation of FP Markets' services, explore their Standard and Raw account structures, their robust platform options (MT4, MT5, Iress), and detail the rebate rates available to you.",
+          "source_url": "https://blog.fxrebate.eu/post/fp-markets-rebate",
+          "confidence": "explicit"
+        },
+        {
+          "canonical": "ctrader",
+          "status": "explicit_yes",
+          "value": "cTrader",
+          "raw": "cTrader",
+          "evidence": "cTrader:",
+          "source_url": "https://blog.fxrebate.eu/post/fp-markets-rebate",
+          "confidence": "explicit"
+        }
+      ],
+      "legal_entities_and_licenses": [
+        {
+          "entity_name": null,
+          "jurisdiction": null,
+          "regulator": null,
+          "license_reference": null,
+          "raw": "Enjoy the same ASIC/CySEC regulated environment and raw spreads.",
+          "evidence": "Enjoy the same ASIC/CySEC regulated environment and raw spreads.",
+          "source_url": "https://blog.fxrebate.eu/post/fp-markets-rebate-update"
+        },
+        {
+          "entity_name": null,
+          "jurisdiction": null,
+          "regulator": null,
+          "license_reference": null,
+          "raw": "Regulated by top-tier authorities like ASIC, this Australian powerhouse now partners with FXRebate to offer you cash rebates on every trade, enhancing your profitability in a secure environment.",
+          "evidence": "Regulated by top-tier authorities like ASIC, this Australian powerhouse now partners with FXRebate to offer you cash rebates on every trade, enhancing your profitability in a secure environment.",
+          "source_url": "https://blog.fxrebate.eu/post/fp-markets-rebate"
+        },
+        {
+          "entity_name": null,
+          "jurisdiction": null,
+          "regulator": null,
+          "license_reference": null,
+          "raw": "ASIC (AU), CySEC (CY),",
+          "evidence": "ASIC (AU), CySEC (CY),",
+          "source_url": "https://blog.fxrebate.eu/post/fp-markets-rebate"
+        },
+        {
+          "entity_name": null,
+          "jurisdiction": null,
+          "regulator": null,
+          "license_reference": null,
+          "raw": "FSCA (SA), FSA (SVG)",
+          "evidence": "FSCA (SA), FSA (SVG)",
+          "source_url": "https://blog.fxrebate.eu/post/fp-markets-rebate"
+        },
+        {
+          "entity_name": null,
+          "jurisdiction": null,
+          "regulator": null,
+          "license_reference": null,
+          "raw": "FP Markets is one of the most heavily regulated brokers in the world, ensuring client funds are segregated and protected under multiple jurisdictions.",
+          "evidence": "FP Markets is one of the most heavily regulated brokers in the world, ensuring client funds are segregated and protected under multiple jurisdictions.",
+          "source_url": "https://blog.fxrebate.eu/post/fp-markets-rebate"
+        },
+        {
+          "entity_name": null,
+          "jurisdiction": null,
+          "regulator": null,
+          "license_reference": null,
+          "raw": "🇦🇺 Australian Securities and Investments Commission (ASIC)",
+          "evidence": "🇦🇺 Australian Securities and Investments Commission (ASIC)",
+          "source_url": "https://blog.fxrebate.eu/post/fp-markets-rebate"
+        },
+        {
+          "entity_name": null,
+          "jurisdiction": null,
+          "regulator": null,
+          "license_reference": null,
+          "raw": "Licence: 286354",
+          "evidence": "Licence: 286354",
+          "source_url": "https://blog.fxrebate.eu/post/fp-markets-rebate"
+        },
+        {
+          "entity_name": null,
+          "jurisdiction": null,
+          "regulator": null,
+          "license_reference": null,
+          "raw": "🇨🇾 Cyprus Securities and Exchange Commission (CySEC)",
+          "evidence": "🇨🇾 Cyprus Securities and Exchange Commission (CySEC)",
+          "source_url": "https://blog.fxrebate.eu/post/fp-markets-rebate"
+        },
+        {
+          "entity_name": null,
+          "jurisdiction": null,
+          "regulator": null,
+          "license_reference": null,
+          "raw": "Licence: 371/18",
+          "evidence": "Licence: 371/18",
+          "source_url": "https://blog.fxrebate.eu/post/fp-markets-rebate"
+        },
+        {
+          "entity_name": null,
+          "jurisdiction": null,
+          "regulator": null,
+          "license_reference": null,
+          "raw": "🇿🇦 Financial Sector Conduct Authority (FSCA)",
+          "evidence": "🇿🇦 Financial Sector Conduct Authority (FSCA)",
+          "source_url": "https://blog.fxrebate.eu/post/fp-markets-rebate"
+        },
+        {
+          "entity_name": null,
+          "jurisdiction": null,
+          "regulator": null,
+          "license_reference": null,
+          "raw": "Licence: 50926",
+          "evidence": "Licence: 50926",
+          "source_url": "https://blog.fxrebate.eu/post/fp-markets-rebate"
+        },
+        {
+          "entity_name": null,
+          "jurisdiction": null,
+          "regulator": null,
+          "license_reference": null,
+          "raw": "🇻🇨 Financial Services Authority (FSA SVG)",
+          "evidence": "🇻🇨 Financial Services Authority (FSA SVG)",
+          "source_url": "https://blog.fxrebate.eu/post/fp-markets-rebate"
+        },
+        {
+          "entity_name": null,
+          "jurisdiction": null,
+          "regulator": null,
+          "license_reference": null,
+          "raw": "🇸🇨 Financial Services Authority (FSA Seychelles)",
+          "evidence": "🇸🇨 Financial Services Authority (FSA Seychelles)",
+          "source_url": "https://blog.fxrebate.eu/post/fp-markets-rebate"
+        },
+        {
+          "entity_name": null,
+          "jurisdiction": null,
+          "regulator": null,
+          "license_reference": null,
+          "raw": "Licence: SD130",
+          "evidence": "Licence: SD130",
+          "source_url": "https://blog.fxrebate.eu/post/fp-markets-rebate"
+        },
+        {
+          "entity_name": null,
+          "jurisdiction": null,
+          "regulator": null,
+          "license_reference": null,
+          "raw": "FP Markets is one of the safest brokers globally, regulated by ASIC (Australia), CySEC (Cyprus), and FSCA (South Africa), ensuring strict adherence to financial standards and client protection.",
+          "evidence": "FP Markets is one of the safest brokers globally, regulated by ASIC (Australia), CySEC (Cyprus), and FSCA (South Africa), ensuring strict adherence to financial standards and client protection.",
+          "source_url": "https://blog.fxrebate.eu/post/fp-markets-rebate"
+        },
+        {
+          "entity_name": null,
+          "jurisdiction": null,
+          "regulator": null,
+          "license_reference": null,
+          "raw": "ASIC broker",
+          "evidence": "ASIC broker",
+          "source_url": "https://blog.fxrebate.eu/post/fp-markets-rebate"
+        },
+        {
+          "entity_name": null,
+          "jurisdiction": null,
+          "regulator": null,
+          "license_reference": null,
+          "raw": "CySEC broker",
+          "evidence": "CySEC broker",
+          "source_url": "https://blog.fxrebate.eu/post/fp-markets-rebate"
+        },
+        {
+          "entity_name": null,
+          "jurisdiction": null,
+          "regulator": null,
+          "license_reference": null,
+          "raw": "FSCA broker",
+          "evidence": "FSCA broker",
+          "source_url": "https://blog.fxrebate.eu/post/fp-markets-rebate"
+        }
+      ],
+      "source_references": [
+        {
+          "url": "https://blog.fxrebate.eu/post/fp-markets-rebate-update",
+          "content_sha256": "ca3234da1e244a9633fba70cf1753cc04daef0f6c78acd7e639ea936948dd69c",
+          "extracted_at": "2026-08-12T08:18:38.628Z"
+        },
+        {
+          "url": "https://blog.fxrebate.eu/post/fp-markets-rebate",
+          "content_sha256": "19f5c09180374a289361ec88396fd2c33d34452d5ed73ae2709e6b5c82020d5c",
+          "extracted_at": "2026-08-12T08:18:26.728Z"
+        }
+      ]
+    },
+    {
+      "broker_id": "fxrb:fusion-markets",
+      "canonical_broker_slug": "fusion-markets",
+      "broker_name": "Fusion Markets",
+      "fxrebate_broker_url": "https://fxrebate.eu/brokers/fusion-markets",
+      "blog_article_url": "https://blog.fxrebate.eu/post/fusion-markets-rebate",
+      "platforms": [
+        {
+          "canonical": "mt4",
+          "status": "explicit_yes",
+          "value": "MT4",
+          "raw": "MT4",
+          "evidence": "MetaTrader 4 (MT4):",
+          "source_url": "https://blog.fxrebate.eu/post/fusion-markets-rebate",
+          "confidence": "explicit"
+        },
+        {
+          "canonical": "mt5",
+          "status": "explicit_yes",
+          "value": "MT5",
+          "raw": "MT5",
+          "evidence": "MetaTrader 5 (MT5):",
+          "source_url": "https://blog.fxrebate.eu/post/fusion-markets-rebate",
+          "confidence": "explicit"
+        },
+        {
+          "canonical": "tradingview",
+          "status": "explicit_yes",
+          "value": "TradingView",
+          "raw": "TradingView",
+          "evidence": "Fusion Markets offers the popular MetaTrader suite along with integration for modern tools like TradingView.",
+          "source_url": "https://blog.fxrebate.eu/post/fusion-markets-rebate",
+          "confidence": "explicit"
+        }
+      ],
+      "legal_entities_and_licenses": [
+        {
+          "entity_name": null,
+          "jurisdiction": null,
+          "regulator": null,
+          "license_reference": null,
+          "raw": "ASIC (Australia),",
+          "evidence": "ASIC (Australia),",
+          "source_url": "https://blog.fxrebate.eu/post/fusion-markets-rebate"
+        },
+        {
+          "entity_name": null,
+          "jurisdiction": null,
+          "regulator": null,
+          "license_reference": null,
+          "raw": "VFSC (Vanuatu)",
+          "evidence": "VFSC (Vanuatu)",
+          "source_url": "https://blog.fxrebate.eu/post/fusion-markets-rebate"
+        },
+        {
+          "entity_name": null,
+          "jurisdiction": null,
+          "regulator": null,
+          "license_reference": null,
+          "raw": "Fusion Markets ensures client safety through regulation by ASIC in Australia and the VFSC in Vanuatu for international clients, with client funds held in segregated accounts.",
+          "evidence": "Fusion Markets ensures client safety through regulation by ASIC in Australia and the VFSC in Vanuatu for international clients, with client funds held in segregated accounts.",
+          "source_url": "https://blog.fxrebate.eu/post/fusion-markets-rebate"
+        },
+        {
+          "entity_name": null,
+          "jurisdiction": null,
+          "regulator": null,
+          "license_reference": null,
+          "raw": "🇦🇺 Australian Securities and Investments Commission (ASIC)",
+          "evidence": "🇦🇺 Australian Securities and Investments Commission (ASIC)",
+          "source_url": "https://blog.fxrebate.eu/post/fusion-markets-rebate"
+        },
+        {
+          "entity_name": null,
+          "jurisdiction": null,
+          "regulator": null,
+          "license_reference": null,
+          "raw": "🇻🇺 Vanuatu Financial Services Commission (VFSC)",
+          "evidence": "🇻🇺 Vanuatu Financial Services Commission (VFSC)",
+          "source_url": "https://blog.fxrebate.eu/post/fusion-markets-rebate"
+        },
+        {
+          "entity_name": null,
+          "jurisdiction": null,
+          "regulator": null,
+          "license_reference": null,
+          "raw": "Licence: 40256",
+          "evidence": "Licence: 40256",
+          "source_url": "https://blog.fxrebate.eu/post/fusion-markets-rebate"
+        },
+        {
+          "entity_name": null,
+          "jurisdiction": null,
+          "regulator": null,
+          "license_reference": null,
+          "raw": "Fusion Markets is regulated by ASIC in Australia (AFSL 385620) and the VFSC in Vanuatu.",
+          "evidence": "Fusion Markets is regulated by ASIC in Australia (AFSL 385620) and the VFSC in Vanuatu.",
+          "source_url": "https://blog.fxrebate.eu/post/fusion-markets-rebate"
+        },
+        {
+          "entity_name": null,
+          "jurisdiction": null,
+          "regulator": null,
+          "license_reference": null,
+          "raw": "ASIC broker",
+          "evidence": "ASIC broker",
+          "source_url": "https://blog.fxrebate.eu/post/fusion-markets-rebate"
+        },
+        {
+          "entity_name": null,
+          "jurisdiction": null,
+          "regulator": null,
+          "license_reference": null,
+          "raw": "VFSC broker",
+          "evidence": "VFSC broker",
+          "source_url": "https://blog.fxrebate.eu/post/fusion-markets-rebate"
+        }
+      ],
+      "source_references": [
+        {
+          "url": "https://blog.fxrebate.eu/post/fusion-markets-rebate",
+          "content_sha256": "e99e5854711945cf460c038e8d8ba7dc4dbee5f40517c56251794f2ef53c9ca8",
+          "extracted_at": "2026-08-12T08:18:39.733Z"
+        },
+        {
+          "url": "https://blog.fxrebate.eu/post/fusion-markets-rebate-increase",
+          "content_sha256": "b5a1ce5a9c03cb517c35d2ce52e0749d902651e7ba7d85d9d0e51a24021a9747",
+          "extracted_at": "2026-08-12T08:18:38.271Z"
+        }
+      ]
+    },
+    {
+      "broker_id": "fxrb:fxpro",
+      "canonical_broker_slug": "fxpro",
+      "broker_name": "FxPro",
+      "fxrebate_broker_url": "https://fxrebate.eu/brokers/fxpro",
+      "blog_article_url": "https://blog.fxrebate.eu/post/fxpro-rebate",
+      "platforms": [
+        {
+          "canonical": "mt4",
+          "status": "explicit_yes",
+          "value": "MT4",
+          "raw": "MT4",
+          "evidence": "These accounts (MT4/MT5/cTrader) are commission-free with costs built into the spread.",
+          "source_url": "https://blog.fxrebate.eu/post/fxpro-rebate",
+          "confidence": "explicit"
+        },
+        {
+          "canonical": "mt5",
+          "status": "explicit_yes",
+          "value": "MT5",
+          "raw": "MT5",
+          "evidence": "These accounts (MT4/MT5/cTrader) are commission-free with costs built into the spread.",
+          "source_url": "https://blog.fxrebate.eu/post/fxpro-rebate",
+          "confidence": "explicit"
+        },
+        {
+          "canonical": "ctrader",
+          "status": "explicit_yes",
+          "value": "cTrader",
+          "raw": "cTrader",
+          "evidence": "In this comprehensive guide, we will provide a full presentation of FxPro's services, explore their vast array of account types (Standard, Raw+, Elite), their platform options including cTrader, and detail the rebate rates available to you.",
+          "source_url": "https://blog.fxrebate.eu/post/fxpro-rebate",
+          "confidence": "explicit"
+        },
+        {
+          "canonical": "tradingview",
+          "status": "explicit_yes",
+          "value": "TradingView",
+          "raw": "TradingView",
+          "evidence": "Proprietary web-based platform with TradingView charts.",
+          "source_url": "https://blog.fxrebate.eu/post/fxpro-rebate",
+          "confidence": "explicit"
+        },
+        {
+          "canonical": "web-trader",
+          "status": "explicit_yes",
+          "value": "web trader",
+          "raw": "web trader",
+          "evidence": "Proprietary web-based platform with TradingView charts.",
+          "source_url": "https://blog.fxrebate.eu/post/fxpro-rebate",
+          "confidence": "explicit"
+        }
+      ],
+      "legal_entities_and_licenses": [
+        {
+          "entity_name": null,
+          "jurisdiction": null,
+          "regulator": null,
+          "license_reference": null,
+          "raw": "FCA (UK), CySEC (CY),",
+          "evidence": "FCA (UK), CySEC (CY),",
+          "source_url": "https://blog.fxrebate.eu/post/fxpro-rebate"
+        },
+        {
+          "entity_name": null,
+          "jurisdiction": null,
+          "regulator": null,
+          "license_reference": null,
+          "raw": "SCB (Bahamas), FSCA (SA)",
+          "evidence": "SCB (Bahamas), FSCA (SA)",
+          "source_url": "https://blog.fxrebate.eu/post/fxpro-rebate"
+        },
+        {
+          "entity_name": null,
+          "jurisdiction": null,
+          "regulator": null,
+          "license_reference": null,
+          "raw": "FxPro is heavily regulated by four major authorities, ensuring the highest standards of safety and client fund segregation with top-tier banks.",
+          "evidence": "FxPro is heavily regulated by four major authorities, ensuring the highest standards of safety and client fund segregation with top-tier banks.",
+          "source_url": "https://blog.fxrebate.eu/post/fxpro-rebate"
+        },
+        {
+          "entity_name": null,
+          "jurisdiction": null,
+          "regulator": null,
+          "license_reference": null,
+          "raw": "🇬🇧 Financial Conduct Authority (FCA)",
+          "evidence": "🇬🇧 Financial Conduct Authority (FCA)",
+          "source_url": "https://blog.fxrebate.eu/post/fxpro-rebate"
+        },
+        {
+          "entity_name": null,
+          "jurisdiction": null,
+          "regulator": null,
+          "license_reference": null,
+          "raw": "🇨🇾 Cyprus Securities and Exchange Commission (CySEC)",
+          "evidence": "🇨🇾 Cyprus Securities and Exchange Commission (CySEC)",
+          "source_url": "https://blog.fxrebate.eu/post/fxpro-rebate"
+        },
+        {
+          "entity_name": null,
+          "jurisdiction": null,
+          "regulator": null,
+          "license_reference": null,
+          "raw": "Licence: 078/07",
+          "evidence": "Licence: 078/07",
+          "source_url": "https://blog.fxrebate.eu/post/fxpro-rebate"
+        },
+        {
+          "entity_name": null,
+          "jurisdiction": null,
+          "regulator": null,
+          "license_reference": null,
+          "raw": "🇧🇸 Securities Commission of The Bahamas (SCB)",
+          "evidence": "🇧🇸 Securities Commission of The Bahamas (SCB)",
+          "source_url": "https://blog.fxrebate.eu/post/fxpro-rebate"
+        },
+        {
+          "entity_name": null,
+          "jurisdiction": null,
+          "regulator": null,
+          "license_reference": null,
+          "raw": "Licence: SIA-F184",
+          "evidence": "Licence: SIA-F184",
+          "source_url": "https://blog.fxrebate.eu/post/fxpro-rebate"
+        },
+        {
+          "entity_name": null,
+          "jurisdiction": null,
+          "regulator": null,
+          "license_reference": null,
+          "raw": "FxPro is one of the safest brokers in the industry, regulated by the FCA (UK), CySEC (Cyprus), SCB (Bahamas), and FSCA (South Africa).",
+          "evidence": "FxPro is one of the safest brokers in the industry, regulated by the FCA (UK), CySEC (Cyprus), SCB (Bahamas), and FSCA (South Africa).",
+          "source_url": "https://blog.fxrebate.eu/post/fxpro-rebate"
+        },
+        {
+          "entity_name": null,
+          "jurisdiction": null,
+          "regulator": null,
+          "license_reference": null,
+          "raw": "CySEC broker",
+          "evidence": "CySEC broker",
+          "source_url": "https://blog.fxrebate.eu/post/fxpro-rebate"
+        },
+        {
+          "entity_name": null,
+          "jurisdiction": null,
+          "regulator": null,
+          "license_reference": null,
+          "raw": "FCA broker",
+          "evidence": "FCA broker",
+          "source_url": "https://blog.fxrebate.eu/post/fxpro-rebate"
+        },
+        {
+          "entity_name": null,
+          "jurisdiction": null,
+          "regulator": null,
+          "license_reference": null,
+          "raw": "SCB broker",
+          "evidence": "SCB broker",
+          "source_url": "https://blog.fxrebate.eu/post/fxpro-rebate"
+        }
+      ],
+      "source_references": [
+        {
+          "url": "https://blog.fxrebate.eu/post/fxpro-rebate-increase",
+          "content_sha256": "952b9564e178d78246eab93c9398e4cb0f0931f5b91ab6982bf2c574e1245e9a",
+          "extracted_at": "2026-08-12T08:18:37.981Z"
+        },
+        {
+          "url": "https://blog.fxrebate.eu/post/fxpro-rebate",
+          "content_sha256": "90ba76aaf18aa2a01ef8d86ce6d0864ff49ff9ac9e4dd9b8a7da0059e54fc1af",
+          "extracted_at": "2026-08-12T08:18:09.505Z"
+        }
+      ]
+    },
+    {
+      "broker_id": "fxrb:ic-markets",
+      "canonical_broker_slug": "ic-markets",
+      "broker_name": "IC Markets",
+      "fxrebate_broker_url": "https://fxrebate.eu/brokers/ic-markets",
+      "blog_article_url": "https://blog.fxrebate.eu/post/ic-markets-rebate",
+      "platforms": [
+        {
+          "canonical": "mt4",
+          "status": "explicit_yes",
+          "value": "MT4",
+          "raw": "MT4",
+          "evidence": "Raw Spread (MT4/MT5/cTrader)",
+          "source_url": "https://blog.fxrebate.eu/post/ic-markets-rebate",
+          "confidence": "explicit"
+        },
+        {
+          "canonical": "mt5",
+          "status": "explicit_yes",
+          "value": "MT5",
+          "raw": "MT5",
+          "evidence": "Raw Spread (MT4/MT5/cTrader)",
+          "source_url": "https://blog.fxrebate.eu/post/ic-markets-rebate",
+          "confidence": "explicit"
+        },
+        {
+          "canonical": "ctrader",
+          "status": "explicit_yes",
+          "value": "cTrader",
+          "raw": "cTrader",
+          "evidence": "In this comprehensive guide, we will provide a full presentation of IC Markets' services, explore their Standard, Raw Spread, and cTrader account tiers, their platform options, and detail the rebate rates available to you.",
+          "source_url": "https://blog.fxrebate.eu/post/ic-markets-rebate",
+          "confidence": "explicit"
+        }
+      ],
+      "legal_entities_and_licenses": [
+        {
+          "entity_name": null,
+          "jurisdiction": null,
+          "regulator": null,
+          "license_reference": null,
+          "raw": "ASIC, CySEC,",
+          "evidence": "ASIC, CySEC,",
+          "source_url": "https://blog.fxrebate.eu/post/ic-markets-rebate"
+        },
+        {
+          "entity_name": null,
+          "jurisdiction": null,
+          "regulator": null,
+          "license_reference": null,
+          "raw": "FSA, SCB",
+          "evidence": "FSA, SCB",
+          "source_url": "https://blog.fxrebate.eu/post/ic-markets-rebate"
+        },
+        {
+          "entity_name": null,
+          "jurisdiction": null,
+          "regulator": null,
+          "license_reference": null,
+          "raw": "The broker is heavily regulated across multiple jurisdictions, holding licenses with ASIC (Australia), CySEC (Europe), the FSA (Seychelles), and the SCB (Bahamas), ensuring strict compliance and the segregation of client funds.",
+          "evidence": "The broker is heavily regulated across multiple jurisdictions, holding licenses with ASIC (Australia), CySEC (Europe), the FSA (Seychelles), and the SCB (Bahamas), ensuring strict compliance and the segregation of client funds.",
+          "source_url": "https://blog.fxrebate.eu/post/ic-markets-rebate"
+        },
+        {
+          "entity_name": null,
+          "jurisdiction": null,
+          "regulator": null,
+          "license_reference": null,
+          "raw": "🇦🇺 ASIC Australia",
+          "evidence": "🇦🇺 ASIC Australia",
+          "source_url": "https://blog.fxrebate.eu/post/ic-markets-rebate"
+        },
+        {
+          "entity_name": null,
+          "jurisdiction": null,
+          "regulator": null,
+          "license_reference": null,
+          "raw": "🇪🇺 CySEC Cyprus",
+          "evidence": "🇪🇺 CySEC Cyprus",
+          "source_url": "https://blog.fxrebate.eu/post/ic-markets-rebate"
+        },
+        {
+          "entity_name": null,
+          "jurisdiction": null,
+          "regulator": null,
+          "license_reference": null,
+          "raw": "License: 362/18",
+          "evidence": "License: 362/18",
+          "source_url": "https://blog.fxrebate.eu/post/ic-markets-rebate"
+        },
+        {
+          "entity_name": null,
+          "jurisdiction": null,
+          "regulator": null,
+          "license_reference": null,
+          "raw": "FSA Seychelles",
+          "evidence": "FSA Seychelles",
+          "source_url": "https://blog.fxrebate.eu/post/ic-markets-rebate"
+        },
+        {
+          "entity_name": null,
+          "jurisdiction": null,
+          "regulator": null,
+          "license_reference": null,
+          "raw": "License: SD018",
+          "evidence": "License: SD018",
+          "source_url": "https://blog.fxrebate.eu/post/ic-markets-rebate"
+        },
+        {
+          "entity_name": null,
+          "jurisdiction": null,
+          "regulator": null,
+          "license_reference": null,
+          "raw": "Up to 1:500 (depending on jurisdiction).",
+          "evidence": "Up to 1:500 (depending on jurisdiction).",
+          "source_url": "https://blog.fxrebate.eu/post/ic-markets-rebate"
+        },
+        {
+          "entity_name": null,
+          "jurisdiction": null,
+          "regulator": null,
+          "license_reference": null,
+          "raw": "ASIC broker",
+          "evidence": "ASIC broker",
+          "source_url": "https://blog.fxrebate.eu/post/ic-markets-rebate"
+        },
+        {
+          "entity_name": null,
+          "jurisdiction": null,
+          "regulator": null,
+          "license_reference": null,
+          "raw": "CySEC broker",
+          "evidence": "CySEC broker",
+          "source_url": "https://blog.fxrebate.eu/post/ic-markets-rebate"
+        }
+      ],
+      "source_references": [
+        {
+          "url": "https://blog.fxrebate.eu/post/ic-markets-rebate",
+          "content_sha256": "d39f0a1051ce1fd3796797d1f009e839ce37be027711eedc371cd3dbd7d2d33d",
+          "extracted_at": "2026-08-12T08:18:54.457Z"
+        },
+        {
+          "url": "https://blog.fxrebate.eu/post/ic-markets-futures-rebate",
+          "content_sha256": "a5290e53f3c0c289a65bf8c0a4db8c676014182a2bf71eb3d6611f46132bcf9b",
+          "extracted_at": "2026-08-12T08:18:56.222Z"
+        },
+        {
+          "url": "https://blog.fxrebate.eu/post/ic-markets-new-rebates",
+          "content_sha256": "54a416fe94e53efce0ad8d397cad5327f5a6f88d178abef2b51590e999fbffc7",
+          "extracted_at": "2026-08-12T08:18:31.716Z"
+        }
+      ]
+    },
+    {
+      "broker_id": "fxrb:xm",
+      "canonical_broker_slug": "xm",
+      "broker_name": "XM",
+      "fxrebate_broker_url": "https://fxrebate.eu/brokers/xm",
+      "blog_article_url": "https://blog.fxrebate.eu/post/earn-bigger-xm-rebates-auto-payouts",
+      "platforms": [
+        {
+          "canonical": "mt4",
+          "status": "explicit_yes",
+          "value": "MT4",
+          "raw": "MT4",
+          "evidence": "Funds go straight into your MT4/MT5 trading account, instantly boosting your free margin.",
+          "source_url": "https://blog.fxrebate.eu/post/earn-bigger-xm-rebates-auto-payouts",
+          "confidence": "explicit"
+        },
+        {
+          "canonical": "mt5",
+          "status": "explicit_yes",
+          "value": "MT5",
+          "raw": "MT5",
+          "evidence": "Funds go straight into your MT4/MT5 trading account, instantly boosting your free margin.",
+          "source_url": "https://blog.fxrebate.eu/post/earn-bigger-xm-rebates-auto-payouts",
+          "confidence": "explicit"
+        }
+      ],
+      "legal_entities_and_licenses": [
+        {
+          "entity_name": null,
+          "jurisdiction": null,
+          "regulator": null,
+          "license_reference": null,
+          "raw": "CySEC, ASIC,",
+          "evidence": "CySEC, ASIC,",
+          "source_url": "https://blog.fxrebate.eu/post/xm-rebate"
+        },
+        {
+          "entity_name": null,
+          "jurisdiction": null,
+          "regulator": null,
+          "license_reference": null,
+          "raw": "FSC, FSA",
+          "evidence": "FSC, FSA",
+          "source_url": "https://blog.fxrebate.eu/post/xm-rebate"
+        },
+        {
+          "entity_name": null,
+          "jurisdiction": null,
+          "regulator": null,
+          "license_reference": null,
+          "raw": "XM operates as a globally recognized, multi-regulated broker.",
+          "evidence": "XM operates as a globally recognized, multi-regulated broker.",
+          "source_url": "https://blog.fxrebate.eu/post/xm-rebate"
+        },
+        {
+          "entity_name": null,
+          "jurisdiction": null,
+          "regulator": null,
+          "license_reference": null,
+          "raw": "Depending on your jurisdiction, your account will be overseen by top-tier authorities such as CySEC (Europe), ASIC (Australia), the FSC (Belize), or the FSA (Seychelles).",
+          "evidence": "Depending on your jurisdiction, your account will be overseen by top-tier authorities such as CySEC (Europe), ASIC (Australia), the FSC (Belize), or the FSA (Seychelles).",
+          "source_url": "https://blog.fxrebate.eu/post/xm-rebate"
+        },
+        {
+          "entity_name": null,
+          "jurisdiction": null,
+          "regulator": null,
+          "license_reference": null,
+          "raw": "ASIC broker",
+          "evidence": "ASIC broker",
+          "source_url": "https://blog.fxrebate.eu/post/xm-rebate"
+        },
+        {
+          "entity_name": null,
+          "jurisdiction": null,
+          "regulator": null,
+          "license_reference": null,
+          "raw": "CySEC broker",
+          "evidence": "CySEC broker",
+          "source_url": "https://blog.fxrebate.eu/post/xm-rebate"
+        },
+        {
+          "entity_name": null,
+          "jurisdiction": null,
+          "regulator": null,
+          "license_reference": null,
+          "raw": "FSC broker",
+          "evidence": "FSC broker",
+          "source_url": "https://blog.fxrebate.eu/post/xm-rebate"
+        }
+      ],
+      "source_references": [
+        {
+          "url": "https://blog.fxrebate.eu/post/earn-bigger-xm-rebates-auto-payouts",
+          "content_sha256": "f126bbe012d057594eb7454af6f4bf6a8aae2a26fc78ecf90d259864e8fd2c37",
+          "extracted_at": "2026-08-12T08:18:57.577Z"
+        },
+        {
+          "url": "https://blog.fxrebate.eu/post/xm-rebate",
+          "content_sha256": "0853cd05cd639a431ecac95ea983d6701aa403fb94f3803ec79a8d14d01fa75f",
+          "extracted_at": "2026-08-12T08:18:46.665Z"
+        }
+      ]
+    }
+  ]
+}

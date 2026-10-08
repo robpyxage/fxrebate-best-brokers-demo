@@ -1,0 +1,110 @@
+{
+  "ic-markets": {
+    "sourceUrl": "https://fxrebate.eu/brokers/ic-markets",
+    "fetchedAt": "2026-10-08",
+    "platforms": [],
+    "forexRates": [
+      "3 USD per lot",
+      "1.5 USD per lot",
+      "0.5 USD per lot"
+    ],
+    "logoUrl": "/upload/broker/IC_Markets-logo.png",
+    "regulators": [
+      "ASIC",
+      "CySEC",
+      "FSA SC",
+      "SCB"
+    ],
+    "minimumDeposit": "200 USD",
+    "rating": 5
+  },
+  "fp-markets": {
+    "sourceUrl": "https://fxrebate.eu/brokers/fp-markets",
+    "fetchedAt": "2026-10-08",
+    "platforms": [],
+    "forexRates": [],
+    "logoUrl": "/upload/broker/FP-Markets-logo.png",
+    "minimumDeposit": "100 USD"
+  },
+  "xm": {
+    "sourceUrl": "https://fxrebate.eu/brokers/xm",
+    "fetchedAt": "2026-10-08",
+    "platforms": [],
+    "forexRates": [],
+    "logoUrl": "/upload/broker/xm-logo.png"
+  },
+  "fxpro": {
+    "sourceUrl": "https://fxrebate.eu/brokers/fxpro",
+    "fetchedAt": "2026-10-08",
+    "platforms": [],
+    "forexRates": [
+      "30% of spread",
+      "0.10 pips per lot",
+      "30% of spread",
+      "30% of spread",
+      "0.15 pips per lot",
+      "30% of spread",
+      "30% of spread",
+      "0.4 pips per lot",
+      "30% of spread",
+      "30% of spread",
+      "0.75 pips per lot",
+      "30% of spread",
+      "30% of spread",
+      "1 pip per lot",
+      "30% of spread",
+      "30% of spread",
+      "1.8 pips per lot",
+      "30% of spread",
+      "30% of spread",
+      "0.03 pips per lot",
+      "30% of spread"
+    ],
+    "logoUrl": "/upload/broker/FxPro-logo.png",
+    "regulators": [
+      "FCA UK",
+      "SCB",
+      "FSC Marutius",
+      "FSA Seychelles"
+    ],
+    "minimumDeposit": "100 USD",
+    "rating": 4.6
+  },
+  "dukascopy": {
+    "sourceUrl": "https://fxrebate.eu/brokers/dukascopy",
+    "fetchedAt": "2026-10-08",
+    "platforms": [],
+    "forexRates": [
+      "30% of commission",
+      "30% of commission",
+      "30% of commission",
+      "35% of commission",
+      "35% of commission"
+    ],
+    "logoUrl": "/upload/broker/Dukascopy_Europe-logo.png",
+    "regulators": [
+      "FCMC",
+      "FINMA"
+    ],
+    "minimumDeposit": "100 USD",
+    "rating": 4.3
+  },
+  "fusion-markets": {
+    "sourceUrl": "https://fxrebate.eu/brokers/fusion-markets",
+    "fetchedAt": "2026-10-08",
+    "platforms": [],
+    "forexRates": [
+      "3 points per lot",
+      "0.8 points per lot",
+      "4 points per lot",
+      "1.12 points per lot"
+    ],
+    "logoUrl": "/upload/broker/Fusion_Markets-logo.png",
+    "regulators": [
+      "ASIC",
+      "VFSC"
+    ],
+    "minimumDeposit": "10 USD",
+    "rating": 5
+  }
+}
