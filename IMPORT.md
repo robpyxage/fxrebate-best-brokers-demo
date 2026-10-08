@@ -48,3 +48,6 @@ Full source plus the generated `output/site/`. Environment files, authentication
 
 ## Version 2 — site alignment and podium
 The updated demo bundles Satoshi and the new site's light/dark SVG logos. src/theme-init.js is included in the generated static page. DESIGN_SYSTEM.md describes the shared palette, podium colors and integration with the existing Next.js/Tailwind layout/theme. Gold/silver/bronze is derived from collection rank, not from the broker record or visible filter position. The comparison uses bold colored names for the same top three.
+
+## Demo access and release
+Demo Vercel Authentication/password protection is currently disabled. Security Checkpoint may still be enforced by Vercel automatic traffic filtering; deployment protection and this checkpoint are different layers. Review access/security settings before a production launch or client handover. This is a release step, not an automatic date-based reactivation.

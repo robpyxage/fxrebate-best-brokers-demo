@@ -38,3 +38,5 @@ h1,h2,h3,h4,.eyebrow,.rank,.facts dd,.cashback strong,.comparison th,.comparison
 @media(min-width:1181px){.verdict{height:44px;min-height:44px}}
 /* Keep the keyboard skip link visually clipped until focus, including long captures. */
 .skip-link{top:12px;width:1px;height:1px;padding:0;overflow:hidden;clip-path:inset(50%);white-space:nowrap}.skip-link:focus{width:auto;height:auto;padding:12px 20px;overflow:visible;clip-path:none}
+/* The FXRebate advantage section uses the green from the logo gradient. */
+.cashback-explainer{background:#006a3d;color:#fff;--inverse:#fff}.cashback-explainer .eyebrow{color:#d3eddd}.cashback-explainer-top>p,.cashback-steps p,.cashback-explainer-bottom>span{color:#dceee3}.cashback-steps li>span{border-color:#9ccbaf;color:#e7f4ec}.cashback-steps li:not(:last-child):after{color:#b2d8c2}.cashback-explainer a:hover{color:#d3eddd}

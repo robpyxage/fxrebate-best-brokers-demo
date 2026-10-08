@@ -24,3 +24,6 @@ The standalone demo applies data-theme to html before paint using src/theme-init
 
 ## Behavior and layout
 Top cards: 3 columns on wide/laptop, 2 on tablet, 1 on mobile. Named font weights match the actual bundled faces. Equal card slots align cashback and CTA on multi-column layouts. Small-screen facts use label/value rows. Very narrow editorial summary headers wrap their logos to avoid overflow. Filters, keyboard FAQ, focus indicators and reduced-motion support remain.
+
+## Version 3: cashback explainer
+The FXRebate Advantage section uses #006A3D, taken from the green stop in the supplied logo SVG. White headings and pale green secondary text preserve contrast in both themes. This section color is independent of the page theme.
