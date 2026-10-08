@@ -44,7 +44,7 @@ The client-preview labels and illustrative editorial order are intentional. Appr
 Build and four contract tests passed. Browser checks passed at 1600, 1280, 834, 390 and 320 px: responsive layout, images, keyboard FAQ, filters, anchors, links and no console errors or horizontal overflow. Optional `scripts/visual-qa.mjs` uses Playwright from the original workspace; it is not required to run/build/import the delivered page.
 
 ## Delivery contents
-Full source plus the generated `output/site/`. Environment files, authentication tokens, Vercel account links, browser state and unrelated project data are excluded. The Git history is local; no GitHub/GitLab remote has been created for this delivery.
+Full source plus the generated `output/site/`. Environment files, authentication tokens, Vercel account links, browser state and unrelated project data are excluded. The full source, generated static page and Git history are prepared for the GitHub repository at https://github.com/robpyxage/fxrebate-best-brokers-demo. Clone it and follow the commands in README.md.
 
 ## Version 2 — site alignment and podium
 The updated demo bundles Satoshi and the new site's light/dark SVG logos. src/theme-init.js is included in the generated static page. DESIGN_SYSTEM.md describes the shared palette, podium colors and integration with the existing Next.js/Tailwind layout/theme. Gold/silver/bronze is derived from collection rank, not from the broker record or visible filter position. The comparison uses bold colored names for the same top three.

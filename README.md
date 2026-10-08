@@ -1,11 +1,40 @@
-# FXRebate Best Brokers demo
-Client design prototype, published on a separate Vercel project. Build: npm run build. Preview: npm run dev. Source catalog remains in ../fxrebate-guide-bot/output/catalog-blog-2026-08-12/.
+# FXRebate — Best Forex Brokers 2026
 
-Public demo: https://fxrebate-best-brokers-demo.vercel.app/brokers/best-forex-brokers
+Complete source and ready-to-host static files for the client preview:
+https://fxrebate-best-brokers-demo.vercel.app/brokers/best-forex-brokers
 
-`npm run lint` checks JavaScript syntax; `npm test` verifies contracts. `node scripts/visual-qa.mjs` uses existing workspace Playwright/browser installations. No application dependencies were added. Report: output/implementation-report.md. Deploy only output/site to the dedicated project; never upload input evidence or environment files.
+The repository includes the exact page design, English text, broker and brand logos, Satoshi fonts, gold/silver/bronze podium styling, light/dark theme, and logo-green FXRebate Advantage section. No external font service or broker API is needed to reproduce it.
 
-## Portable developer handoff
-See IMPORT.md. A frozen read-only six-broker catalog projection in input/catalog-snapshot.json allows the build to run outside this workspace. The adapter still uses the original catalog when present. This is a static Node implementation; integrating it into another framework requires adapting the render functions, not rebuilding the design or text.
+## Clone and run
 
-Version 2 aligns typography, brand logos and palette with the supplied new website and adds light/dark theme plus gold/silver/bronze podium accents. See DESIGN_SYSTEM.md. The updated portable ZIP/bundle are under output/handoff/ with a -v2 suffix.
+Requires Node.js 22 or later. The application has no npm dependencies.
+
+```bash
+git clone https://github.com/robpyxage/fxrebate-best-brokers-demo.git
+cd fxrebate-best-brokers-demo
+npm run build
+npm run dev
+```
+
+Open http://localhost:4173/brokers/best-forex-brokers.
+
+## Import the identical page
+
+The committed `output/site/` contains the complete static page, styles, scripts, fonts and images used by the preview. Serve its contents from the domain root to preserve the root-relative asset URLs and the `/brokers/best-forex-brokers` route. No build is required to host these files directly.
+
+For integration into the existing website framework, follow [IMPORT.md](IMPORT.md). Reuse the rendering and collection components under `src/`, preserve the styling and text, and replace the standalone header/footer with the site's layout only if desired. The deliverable is a static implementation; it is not a drop-in Next.js component package. [DESIGN_SYSTEM.md](DESIGN_SYSTEM.md) documents typography, brand tokens, responsive behavior and podium colors.
+
+## Data and production integration
+
+The build uses a frozen, sourced six-broker catalog projection in `input/catalog-snapshot.json` when the original workspace catalog is unavailable. This makes a fresh clone self-contained. The demo rank order is illustrative, some facts use explicit fallbacks, and analytics only emits local CustomEvents. Developers should connect the existing production broker/CMS data and analytics, verify account/entity/country terms, approve rankings, and configure production SEO. Preview indexing is intentionally disabled.
+
+## Validation
+
+```bash
+npm run lint
+npm test
+```
+
+Syntax checks, four contract tests and local responsive browser QA passed at 320, 390, 834, 1280 and 1600 pixels. Optional `scripts/visual-qa.mjs` requires Playwright and a Chromium installation; neither is required to build or host the page.
+
+See [output/implementation-report.md](output/implementation-report.md) for implementation details and the Vercel access limitation. Environment files, authentication tokens and Vercel account links are excluded from this repository.
