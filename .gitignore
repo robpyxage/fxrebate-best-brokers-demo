@@ -6,3 +6,6 @@ output/site/.env*
 output/handoff/
 output/qa/
 input/*-profile.html
+input/new-website-reference/
+output/site-alignment/*
+!output/site-alignment/analysis-ro.md

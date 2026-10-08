@@ -12,3 +12,16 @@ document.querySelectorAll('[data-filter]').forEach(button=>button.addEventListen
 }));
 document.querySelectorAll('.faq-list details').forEach(details=>details.addEventListener('toggle',()=>{if(details.open)track('faq_expand',{faq_id:details.dataset.faq});}));
 if('IntersectionObserver' in window){const observer=new IntersectionObserver(entries=>entries.forEach(entry=>{if(entry.isIntersecting){track('broker_card_impression',{broker_id:entry.target.dataset.brokerId,rank:entry.target.dataset.rank});observer.unobserve(entry.target);}}),{threshold:0.5});cards.forEach(card=>observer.observe(card));}
+const themeToggle=document.querySelector('.theme-toggle');
+function applyTheme(theme){
+ document.documentElement.dataset.theme=theme;
+ document.documentElement.style.colorScheme=theme;
+ const dark=theme==='dark';
+ themeToggle.setAttribute('aria-pressed',String(dark));
+ themeToggle.setAttribute('aria-label',`Switch to ${dark?'light':'dark'} mode`);
+ themeToggle.querySelector('.theme-label').textContent=dark?'Light':'Dark';
+ themeToggle.querySelector('.theme-icon').textContent=dark?'☀':'☾';
+ document.querySelector('meta[name="theme-color"]').content=dark?'#0c110f':'#ffffff';
+}
+applyTheme(document.documentElement.dataset.theme||'light');
+themeToggle.addEventListener('click',()=>{const theme=document.documentElement.dataset.theme==='dark'?'light':'dark';applyTheme(theme);try{localStorage.setItem('fxrebate-demo-theme',theme);}catch{}track('theme_change',{theme});});

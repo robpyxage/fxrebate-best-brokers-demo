@@ -27,3 +27,8 @@ Isolated Vercel project `robpyxages-projects/fxrebate-best-brokers-demo`, produc
 
 ## Production handoff
 No backend is required to view this demo. Developers should integrate the reusable collection/card model with their real site framework, CMS, reviewed rankings and analytics provider. Approve editorial order and methodology, verify regulator/entity/rate/minimum-deposit data, and integrate site legal components. Production should use its canonical/schema/SEO utilities and internal broker routes. Demo links deliberately open existing FXRebate broker profiles. No CMS/GHL writes performed.
+
+## Version 2: site alignment and podium
+User approved visual alignment with http://141.98.155.230/en and requested gold/silver/bronze for the first three ranks. Added bundled Satoshi 400/500/700, new SVG brand variants, black/white/neutral gray and site green, accessible light/dark toggle with saved preference, and rank-derived podium classes. Card bands and rank numerals use podium accents; comparison names use bold accessible gold/silver/bronze tones. Source broker facts, editorial copy and profile destinations are retained. No IDs/rates were inferred from the new site's different broker routes. See DESIGN_SYSTEM.md for integration details. Browser QA covers both themes, podium contrast, rank preservation after filtering and 320–1600px layout; build, syntax checks and four contract tests pass.
+
+Version 2 publication: isolated Vercel deployment updated; public alias remains https://fxrebate-best-brokers-demo.vercel.app/brokers/best-forex-brokers. Podium text contrast measured at least 5.57:1 in light and 8.75:1 in dark; no horizontal overflow at all five tested widths. Self-hosted fonts and both logos load locally without dependence on the reference IP.
