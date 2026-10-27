@@ -51,3 +51,13 @@ The updated demo bundles Satoshi and the new site's light/dark SVG logos. src/th
 
 ## Demo access and release
 Demo Vercel Authentication/password protection is currently disabled. Security Checkpoint may still be enforced by Vercel automatic traffic filtering; deployment protection and this checkpoint are different layers. Review access/security settings before a production launch or client handover. This is a release step, not an automatic date-based reactivation.
+
+## Six additional resource pages — Vercel preview
+
+The review index is https://fxrebate-best-brokers-demo.vercel.app/preview. The proposed routes are `/rebates/forex-broker-rebates`, `/rebates/crypto-exchange-rebates`, `/rebates/prop-firm-rebates`, `/guides/how-to-choose-a-forex-broker`, `/guides/how-to-choose-a-crypto-exchange`, and `/guides/how-to-choose-a-prop-firm`. Final production routing should follow the real site's conventions.
+
+`src/content-pages.mjs` contains shared article, table, navigation, calculator and index rendering. `src/content-pages.css` extends the existing approved tokens; `src/content-client.js` provides local calculation, CSV export, checklist, print and contents behavior. Both resource and original pages use `src/client.js` for the same saved theme; page analytics is scoped by `data-page-id` and has no external destination. `scripts/build-content-pages.mjs` is called by the main build. The generated pages are ready to host under `output/site/` with the existing assets.
+
+`input/pages-2026-10-27/content.json` is an editorial-content projection, not a provider database. The six original DOCX sources are not included in this public repository; when supplied separately beside it, they can be reimported with Python's standard library. All source paragraphs and table cells are covered by content tests. Do not publish the DOCX files or reference screenshot as website assets.
+
+The three guides include editable two-provider comparison worksheets and CSV download; these are empty source templates rather than mock real-provider comparisons. Calculator defaults and numerical comparisons come from the source documents and are explicitly illustrative. Inputs are not submitted, retained after navigation or saved to a backend. Production provider catalogues, account/referral attribution, calculator rates, service availability, legal/editorial review, CMS, analytics and SEO integration remain to be connected. None of the new pages impersonates the individual Admirals profile in the screenshot. This preview adds general topic pages, as specified by the six documents. This repository includes the original broker page and all six added pages.

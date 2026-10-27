@@ -1,5 +1,13 @@
 # FXRebate — Best Forex Brokers 2026
 
+## Six additional pages — Vercel review, 27 October 2026
+
+Run `npm run build` and `npm run dev`, then open **http://localhost:4173/preview** to browse the three rebate explainers and three how-to-choose guides for Forex, Crypto and Prop Firms. They reuse the approved fonts, theme, green and responsive design. The original broker page remains at `/brokers/best-forex-brokers` and at `/`.
+
+Content comes from the six client Word documents. The complete structured read-only projection `input/pages-2026-10-27/content.json` is included and built into shared page templates by `src/content-pages.mjs`. No extra runtime dependencies are needed. The original Word files and reference image are not included in this public repository. `python3 scripts/import-documents.py` is only needed when the Word originals are supplied separately and edited.
+
+The new pages include an essentials overview, grouped lists, keyboard-accessible expandable questions, responsive contents navigation, example calculators, editable comparison tables with CSV download, checklists and print styles. Data entered into worksheets is held in the current page only. No account, offer catalogue, API, live rates, analytics provider or CMS is connected. `npm run qa:content` runs optional Playwright browser checks. See `output/pages-2026-10-27/implementation-report.md` for route mapping and validation. The six pages and the preview index are published at https://fxrebate-best-brokers-demo.vercel.app/preview. The complete source for the original broker page and all six resource pages is in this repository.
+
 Complete source and ready-to-host static files for the client preview:
 https://fxrebate-best-brokers-demo.vercel.app/brokers/best-forex-brokers
 
@@ -38,3 +46,10 @@ npm test
 Syntax checks, four contract tests and local responsive browser QA passed at 320, 390, 834, 1280 and 1600 pixels. Optional `scripts/visual-qa.mjs` requires Playwright and a Chromium installation; neither is required to build or host the page.
 
 See [output/implementation-report.md](output/implementation-report.md) for implementation details and the Vercel access limitation. Environment files, authentication tokens and Vercel account links are excluded from this repository.
+
+## Documents for handoff
+
+- [Client presentation (PDF)](docs/FXRebate-Prezentare-Client.pdf)
+- [Developer handoff (PDF)](docs/FXRebate-Handoff-Programatori.pdf)
+
+The six added pages use the shared content renderer and remain distinct routes. The source and generated files in this repository correspond to the Vercel preview.

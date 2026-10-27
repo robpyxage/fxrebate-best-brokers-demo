@@ -1,0 +1,242 @@
+[
+  {
+    "page": "forex-rebates",
+    "width": 1440,
+    "status": "passed",
+    "themePersistence": true,
+    "contentNavigation": true,
+    "calculator": true,
+    "editableWorksheet": false,
+    "noRemoteRequests": true
+  },
+  {
+    "page": "forex-guide",
+    "width": 1440,
+    "status": "passed",
+    "themePersistence": true,
+    "contentNavigation": true,
+    "calculator": false,
+    "editableWorksheet": true,
+    "noRemoteRequests": true
+  },
+  {
+    "page": "crypto-rebates",
+    "width": 1440,
+    "status": "passed",
+    "themePersistence": true,
+    "contentNavigation": true,
+    "calculator": true,
+    "editableWorksheet": false,
+    "noRemoteRequests": true
+  },
+  {
+    "page": "crypto-guide",
+    "width": 1440,
+    "status": "passed",
+    "themePersistence": true,
+    "contentNavigation": true,
+    "calculator": false,
+    "editableWorksheet": true,
+    "noRemoteRequests": true
+  },
+  {
+    "page": "prop-rebates",
+    "width": 1440,
+    "status": "passed",
+    "themePersistence": true,
+    "contentNavigation": true,
+    "calculator": true,
+    "editableWorksheet": false,
+    "noRemoteRequests": true
+  },
+  {
+    "page": "prop-guide",
+    "width": 1440,
+    "status": "passed",
+    "themePersistence": true,
+    "contentNavigation": true,
+    "calculator": false,
+    "editableWorksheet": true,
+    "noRemoteRequests": true
+  },
+  {
+    "page": "forex-rebates",
+    "width": 834,
+    "status": "passed",
+    "themePersistence": true,
+    "contentNavigation": true,
+    "calculator": true,
+    "editableWorksheet": false,
+    "noRemoteRequests": true
+  },
+  {
+    "page": "forex-guide",
+    "width": 834,
+    "status": "passed",
+    "themePersistence": true,
+    "contentNavigation": true,
+    "calculator": false,
+    "editableWorksheet": true,
+    "noRemoteRequests": true
+  },
+  {
+    "page": "crypto-rebates",
+    "width": 834,
+    "status": "passed",
+    "themePersistence": true,
+    "contentNavigation": true,
+    "calculator": true,
+    "editableWorksheet": false,
+    "noRemoteRequests": true
+  },
+  {
+    "page": "crypto-guide",
+    "width": 834,
+    "status": "passed",
+    "themePersistence": true,
+    "contentNavigation": true,
+    "calculator": false,
+    "editableWorksheet": true,
+    "noRemoteRequests": true
+  },
+  {
+    "page": "prop-rebates",
+    "width": 834,
+    "status": "passed",
+    "themePersistence": true,
+    "contentNavigation": true,
+    "calculator": true,
+    "editableWorksheet": false,
+    "noRemoteRequests": true
+  },
+  {
+    "page": "prop-guide",
+    "width": 834,
+    "status": "passed",
+    "themePersistence": true,
+    "contentNavigation": true,
+    "calculator": false,
+    "editableWorksheet": true,
+    "noRemoteRequests": true
+  },
+  {
+    "page": "forex-rebates",
+    "width": 390,
+    "status": "passed",
+    "themePersistence": true,
+    "contentNavigation": true,
+    "calculator": true,
+    "editableWorksheet": false,
+    "noRemoteRequests": true
+  },
+  {
+    "page": "forex-guide",
+    "width": 390,
+    "status": "passed",
+    "themePersistence": true,
+    "contentNavigation": true,
+    "calculator": false,
+    "editableWorksheet": true,
+    "noRemoteRequests": true
+  },
+  {
+    "page": "crypto-rebates",
+    "width": 390,
+    "status": "passed",
+    "themePersistence": true,
+    "contentNavigation": true,
+    "calculator": true,
+    "editableWorksheet": false,
+    "noRemoteRequests": true
+  },
+  {
+    "page": "crypto-guide",
+    "width": 390,
+    "status": "passed",
+    "themePersistence": true,
+    "contentNavigation": true,
+    "calculator": false,
+    "editableWorksheet": true,
+    "noRemoteRequests": true
+  },
+  {
+    "page": "prop-rebates",
+    "width": 390,
+    "status": "passed",
+    "themePersistence": true,
+    "contentNavigation": true,
+    "calculator": true,
+    "editableWorksheet": false,
+    "noRemoteRequests": true
+  },
+  {
+    "page": "prop-guide",
+    "width": 390,
+    "status": "passed",
+    "themePersistence": true,
+    "contentNavigation": true,
+    "calculator": false,
+    "editableWorksheet": true,
+    "noRemoteRequests": true
+  },
+  {
+    "page": "forex-rebates",
+    "width": 320,
+    "status": "passed",
+    "themePersistence": true,
+    "contentNavigation": true,
+    "calculator": true,
+    "editableWorksheet": false,
+    "noRemoteRequests": true
+  },
+  {
+    "page": "forex-guide",
+    "width": 320,
+    "status": "passed",
+    "themePersistence": true,
+    "contentNavigation": true,
+    "calculator": false,
+    "editableWorksheet": true,
+    "noRemoteRequests": true
+  },
+  {
+    "page": "crypto-rebates",
+    "width": 320,
+    "status": "passed",
+    "themePersistence": true,
+    "contentNavigation": true,
+    "calculator": true,
+    "editableWorksheet": false,
+    "noRemoteRequests": true
+  },
+  {
+    "page": "crypto-guide",
+    "width": 320,
+    "status": "passed",
+    "themePersistence": true,
+    "contentNavigation": true,
+    "calculator": false,
+    "editableWorksheet": true,
+    "noRemoteRequests": true
+  },
+  {
+    "page": "prop-rebates",
+    "width": 320,
+    "status": "passed",
+    "themePersistence": true,
+    "contentNavigation": true,
+    "calculator": true,
+    "editableWorksheet": false,
+    "noRemoteRequests": true
+  },
+  {
+    "page": "prop-guide",
+    "width": 320,
+    "status": "passed",
+    "themePersistence": true,
+    "contentNavigation": true,
+    "calculator": false,
+    "editableWorksheet": true,
+    "noRemoteRequests": true
+  }
+]

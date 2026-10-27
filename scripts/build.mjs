@@ -38,3 +38,4 @@ for(const [source,target] of [['src/styles.css','styles.css'],['src/client.js','
 writeFileSync('output/site/robots.txt','User-agent: *\nDisallow: /\n');
 writeFileSync('output/site/vercel.json',JSON.stringify({cleanUrls:true,headers:[{source:'/(.*)',headers:[{key:'X-Robots-Tag',value:'noindex, nofollow'},{key:'X-Content-Type-Options',value:'nosniff'}]}]},null,2));
 console.log(`Built ${rows.length} catalog-backed cards → output/site/brokers/best-forex-brokers/index.html`);
+await import('./build-content-pages.mjs');

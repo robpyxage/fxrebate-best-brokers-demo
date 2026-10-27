@@ -1,6 +1,6 @@
 // Integration hook only. No analytics provider or personal data collection in the demo.
-function track(event,properties={}){window.dispatchEvent(new CustomEvent('fxrebate:analytics',{detail:{event,collection_id:'best_forex_brokers',placement:'best_forex_brokers',...properties}}));}
-track('best_brokers_page_view');
+function track(event,properties={}){const pageId=document.body.dataset.pageId;window.dispatchEvent(new CustomEvent('fxrebate:analytics',{detail:{event,...(pageId?{page_id:pageId}:{collection_id:'best_forex_brokers',placement:'best_forex_brokers'}),...properties}}));}
+track(document.body.dataset.pageId?'resource_page_view':'best_brokers_page_view');
 document.addEventListener('click',event=>{const link=event.target.closest('[data-event]');if(link)track(link.dataset.event,{broker_id:link.dataset.brokerId,rank:link.dataset.rank});});
 const cards=[...document.querySelectorAll('.broker-card')];
 document.querySelectorAll('[data-filter]').forEach(button=>button.addEventListener('click',()=>{

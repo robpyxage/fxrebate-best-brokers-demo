@@ -9,3 +9,8 @@ input/*-profile.html
 input/new-website-reference/
 output/site-alignment/*
 !output/site-alignment/analysis-ro.md
+output/pages-2026-10-27/*.png
+
+# Client originals and reference image stay outside the public repository.
+input/pages-2026-10-27/*.docx
+input/pages-2026-10-27/*.png
