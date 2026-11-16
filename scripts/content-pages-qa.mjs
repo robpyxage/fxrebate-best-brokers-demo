@@ -64,7 +64,7 @@ try{
    await page.close();
   }
   const index=await browser.newPage({viewport:{width,height}});await index.goto(base+'/preview',{waitUntil:'networkidle'});
-  assert.equal(await index.locator('.preview-page-card').count(),9);assert.equal(await index.evaluate(()=>document.documentElement.scrollWidth>innerWidth),false);
+  assert.equal(await index.locator('.preview-page-card').count(),11);assert.equal(await index.evaluate(()=>document.documentElement.scrollWidth>innerWidth),false);
   await index.screenshot({path:`${directory}/index-${width}.png`,fullPage:true});await index.close();
  }
  writeFileSync(`${directory}/qa-report.json`,JSON.stringify(results,null,2));console.log(JSON.stringify({status:'passed',cases:results.length,widths:[1440,834,390,320],pages:pages.length}));

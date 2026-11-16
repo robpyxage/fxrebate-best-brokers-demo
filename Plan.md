@@ -9,3 +9,5 @@ Three source-preserving Forex/Crypto/Prop learning pages, designed with the shar
 
 ## Educational diagram revision
 Reconstruct the 18 source diagrams as responsive FXRebate-branded diagrams, preserving branches, comparisons, labels and example values. Remove the original-image control and verify layout, contrast and functionality before local review.
+
+Company pages: About and Careers approved for the existing GitHub repository and Vercel demo; confirm company facts and connect the actual recruitment channel during integration.

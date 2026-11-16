@@ -18,3 +18,11 @@ input/pages-2026-10-27/*.png
 # Original educational source documents remain local until client handoff.
 input/pages-2026-11-16/*.docx
 output/pages-2026-11-16/*.png
+
+# Client originals stay local; extracted content supports reproducible builds.
+input/pages-company/*.docx
+
+# Local visual QA and supplied promotional material are not part of the deploy.
+output/pages-company/*.png
+output/pilot/
+output/promo-review/

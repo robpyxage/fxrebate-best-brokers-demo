@@ -25,6 +25,6 @@ try{
   assert.deepEqual(errors,[],`${config.id} ${width} browser errors`);assert(requests.every(url=>url.startsWith(base)||url.startsWith('blob:')),'no remote dependencies or data submission');
   report.push({page:config.id,width,status:'passed',chapters:await page.locator('[data-article-section]').count(),figures:6,quiz:10,keyboard:true,csv:true,themePersistence:true});await page.close();
  }
- for(const width of [1440,834,390,320]){const page=await browser.newPage({viewport:{width,height:900}});await page.goto(base+'/preview',{waitUntil:'networkidle'});assert.equal(await page.locator('.preview-page-card').count(),9);assert.equal(await page.evaluate(()=>document.documentElement.scrollWidth>innerWidth),false);await page.close();}
+ for(const width of [1440,834,390,320]){const page=await browser.newPage({viewport:{width,height:900}});await page.goto(base+'/preview',{waitUntil:'networkidle'});assert.equal(await page.locator('.preview-page-card').count(),11);assert.equal(await page.evaluate(()=>document.documentElement.scrollWidth>innerWidth),false);await page.close();}
  writeFileSync(`${dir}/qa-report.json`,JSON.stringify(report,null,2));console.log(JSON.stringify({status:'passed',cases:report.length,pages:3,widths:[1440,834,390,320],index:'passed'}));
 }finally{await browser.close();}

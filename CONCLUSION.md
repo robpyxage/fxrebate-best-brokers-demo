@@ -13,3 +13,5 @@ Prepared locally with the approved Satoshi/green/light-dark visual language, sou
 
 ## Diagram revision — November 2026
 Recreated all 18 educational diagrams as responsive native visualizations, preserving the source relationships and numerical examples. Removed the original-illustration disclosure from the user-facing pages. The three guides remain local pending review.
+
+About and Careers were added locally in the existing brand system, with source-preserving content, responsive layout and expandable career areas. The recruitment endpoint is not connected. The client approved this version for publication.

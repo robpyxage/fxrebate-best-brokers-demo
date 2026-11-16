@@ -2,7 +2,7 @@
 
 ## Three educational guides — local review, 16 November 2026
 
-Three source-preserving guides are available locally at `/learn/what-is-a-forex-broker`, `/learn/what-is-a-crypto-exchange` and `/learn/what-is-a-prop-firm`. Browse all nine topic resources at `/preview`; the original Best Forex Brokers page is the tenth page. New guides use the existing Satoshi, FXRebate branding and light/dark theme. They include accessible chapters, 18 responsive diagrams reconstructed from the source figures, expandable FAQs and quizzes, comparison worksheets and related links. Source text, tables, examples and editorial notes are retained from the three client documents. Work in this section is local only, awaiting review before GitHub/Vercel updates.
+Three source-preserving guides are available locally at `/learn/what-is-a-forex-broker`, `/learn/what-is-a-crypto-exchange` and `/learn/what-is-a-prop-firm`. Browse all nine topic resources at `/preview`; the original Best Forex Brokers page is the tenth page. New guides use the existing Satoshi, FXRebate branding and light/dark theme. They include accessible chapters, 18 responsive diagrams reconstructed from the source figures, expandable FAQs and quizzes, comparison worksheets and related links. Source text, tables, examples and editorial notes are retained from the three client documents. These guides are included in the GitHub repository and Vercel demo.
 
 The ordered content projection is `input/pages-2026-11-16/content.json`; the original Word files remain local and ignored by Git. `scripts/import-learning-documents.py` regenerates that projection when the originals are present. `assets/learning/` retains the unmodified source illustrations as project references; `src/learning-figures.mjs` defines the visible diagrams and preserves the source examples. The source illustrations are not exposed through a link in the pages. Use `npm run qa:learning` for optional Playwright verification. See `output/pages-2026-11-16/implementation-report.md`.
 
@@ -59,3 +59,7 @@ See [output/implementation-report.md](output/implementation-report.md) for imple
 - [Developer handoff (PDF)](docs/FXRebate-Handoff-Programatori.pdf)
 
 The six added pages use the shared content renderer and remain distinct routes. The source and generated files in this repository correspond to the Vercel preview.
+
+## Company pages — local review
+
+The About and Careers pages are available at `/about` and `/careers`, and from `/preview`. They reuse the brand, shared layout, and theme. Content is retained in `input/pages-company/content.json`; source Word documents remain local. Career areas expand accessibly, and the application channel is a clearly marked integration requirement. These pages are prepared for the GitHub repository and Vercel demo.

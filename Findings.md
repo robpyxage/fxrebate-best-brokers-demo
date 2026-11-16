@@ -14,3 +14,5 @@ The repository is public on GitHub from the earlier handoff. The user approved t
 
 ## 16 November 2026 — learning guides
 Client supplied three original educational DOCX files and asked to preserve the author's examples and sources, with local review first. They contain 22 Forex chapters, 20 Crypto chapters, 22 Prop chapters and six original PNG figures each. All source paragraphs/tables/captions are covered by tests; responsive explanatory summaries accompany unmodified source figures. Limited official-source checks confirm selected claims but do not replace a full regulatory/provider audit. Brand book reconfirmed Satoshi and Green 08 #006A3D. See `output/pages-2026-11-16/implementation-report.md`.
+
+The company documents contain no artwork. About includes company/entity information and illustrative milestones to be confirmed by FXRebate. Careers states no current vacancies and refers to an application method that has not been supplied; the local page flags this clearly.

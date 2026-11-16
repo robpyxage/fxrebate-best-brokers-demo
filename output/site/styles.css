@@ -40,3 +40,17 @@ h1,h2,h3,h4,.eyebrow,.rank,.facts dd,.cashback strong,.comparison th,.comparison
 .skip-link{top:12px;width:1px;height:1px;padding:0;overflow:hidden;clip-path:inset(50%);white-space:nowrap}.skip-link:focus{width:auto;height:auto;padding:12px 20px;overflow:visible;clip-path:none}
 /* The FXRebate advantage section uses the green from the logo gradient. */
 .cashback-explainer{background:#006a3d;color:#fff;--inverse:#fff}.cashback-explainer .eyebrow{color:#d3eddd}.cashback-explainer-top>p,.cashback-steps p,.cashback-explainer-bottom>span{color:#dceee3}.cashback-steps li>span{border-color:#9ccbaf;color:#e7f4ec}.cashback-steps li:not(:last-child):after{color:#b2d8c2}.cashback-explainer a:hover{color:#d3eddd}
+
+/* Brand-aligned visual pilot for the broker collection. */
+.broker-collection-preview .hero{position:relative;isolation:isolate;overflow:hidden;border-radius:16px;margin:14px 0 20px;padding:clamp(30px,4.5vw,64px);background:radial-gradient(ellipse at 85% 20%,#16845b 0%,#006a3d 39%,#003620 100%);color:#fff}
+.broker-collection-preview .hero:before,.broker-collection-preview .hero:after{content:'';pointer-events:none;position:absolute;z-index:-1;border:1px solid #b5f4ce2b;border-radius:50%;width:440px;height:440px;right:6%;top:-170px}
+.broker-collection-preview .hero:after{width:320px;height:320px;right:10%;top:-110px}
+.broker-collection-preview .hero .eyebrow,.broker-collection-preview .hero h1 span,.broker-collection-preview .hero .note-icon{color:#a6edc7}
+.broker-collection-preview .hero .status-dot{background:#93ffd1}
+.broker-collection-preview .hero h1,.broker-collection-preview .hero-note h2{color:#fff}
+.broker-collection-preview .hero-intro,.broker-collection-preview .hero-note p,.broker-collection-preview .hero-meta{color:#d6eee0}
+.broker-collection-preview .hero-note{border-color:#ffffff50}.broker-collection-preview .hero a{color:#fff}.broker-collection-preview .hero .meta-divider{background:#a9d3bb}
+.broker-collection-preview .broker-card,.broker-collection-preview .criteria-grid article,.broker-collection-preview .faq-list details{transition:transform .22s ease,box-shadow .22s ease,background-color .22s ease,border-color .22s ease}
+@media (hover:hover) and (pointer:fine){.broker-collection-preview .broker-card:hover{transform:translateY(-4px);box-shadow:0 16px 32px -18px #006a3d70}.broker-collection-preview .criteria-grid article:hover,.broker-collection-preview .faq-list details:hover{background:color-mix(in srgb,var(--surface) 91%,#58c396);border-color:color-mix(in srgb,var(--line) 35%,#1d885b);transform:translateY(-2px)}}
+@media(max-width:760px){.broker-collection-preview .hero{padding:30px 24px}.broker-collection-preview .hero-note{border-color:#ffffff50}.broker-collection-preview .hero:before{right:-170px}}
+@media(prefers-reduced-motion:reduce){.broker-collection-preview .broker-card,.broker-collection-preview .criteria-grid article,.broker-collection-preview .faq-list details{transition:none!important;transform:none!important}}
