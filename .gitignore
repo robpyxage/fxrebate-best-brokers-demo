@@ -26,3 +26,16 @@ input/pages-company/*.docx
 output/pages-company/*.png
 output/pilot/
 output/promo-review/
+
+# Local credentials and private key material (never commit these files).
+.secrets/
+secrets/
+keys/
+credentials.json
+credentials.local.json
+*.pem
+*.key
+*.p12
+*.pfx
+id_rsa
+id_ed25519

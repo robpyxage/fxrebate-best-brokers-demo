@@ -1,3 +1,15 @@
 .env*
 .gitignore
+.git
 .vercel
+.secrets
+secrets
+keys
+credentials.json
+credentials.local.json
+*.pem
+*.key
+*.p12
+*.pfx
+id_rsa
+id_ed25519
