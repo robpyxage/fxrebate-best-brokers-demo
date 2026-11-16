@@ -65,3 +65,8 @@ The three guides include editable two-provider comparison worksheets and CSV dow
 ## Three educational guides — local review
 
 `/learn/what-is-a-forex-broker`, `/learn/what-is-a-crypto-exchange`, `/learn/what-is-a-prop-firm` use `src/learning-pages.mjs` and the existing shared header, footer, styling and theme. `src/learning-data.mjs` provides topic metadata; `src/learning-figures.mjs` provides accessible responsive diagrams. Unmodified original illustrations remain in `assets/learning/` as project references and are not shown in the user-facing pages. Source paragraphs, tables, FAQ, quiz, glossary, captions and editorial notes are projected from the supplied documents into `input/pages-2026-11-16/content.json`. The optional source import script requires separately supplied Word files. Quizzes reveal the supplied answers without collecting data; worksheet inputs stay in the browser. Production integration remains with the real site/CMS and requires current source review.
+
+
+## Security handoff
+
+See `output/security-review/2026-11-17.md` for the scoped prototype review, browser policies and the application security controls to evaluate when integrating accounts, forms, CMS and backend services. The demo uses a static-site CSP and noindex; these must be reviewed for the real application rather than copied unchanged. Store secrets in the hosting platform's environment settings and keep them out of source and generated assets.
