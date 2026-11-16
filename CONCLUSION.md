@@ -7,3 +7,9 @@ Version 3 changes the advantage section to logo green #006A3D and republishes th
 Implemented and verified locally at /preview. All six client Word documents feed reusable article templates in the existing static project. Calculators and editable CSV comparison worksheets are browser-only; no production backend/catalogue/CMS integration is implied. Seven tests, 24 resource page/browser cases and five original broker regression sizes pass. The six pages and index were published to the Vercel preview and the complete source is prepared for the shared GitHub repository.
 
 The local editorial UX revision reorganizes rebate essentials, makes secondary questions expandable, groups long lists, and preserves the full Word content. Desktop/mobile and keyboard/deep-link/print QA are included. The user approved the design, and the Vercel preview was deployed.
+
+## Three educational guides — November 2026
+Prepared locally with the approved Satoshi/green/light-dark visual language, source-preserving content, responsive diagrams, FAQ, knowledge checks and editable comparison tables. Local visual review is pending; no GitHub or Vercel publication in this iteration.
+
+## Diagram revision — November 2026
+Recreated all 18 educational diagrams as responsive native visualizations, preserving the source relationships and numerical examples. Removed the original-illustration disclosure from the user-facing pages. The three guides remain local pending review.

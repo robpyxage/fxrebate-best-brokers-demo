@@ -1,0 +1,134 @@
+[
+  {
+    "page": "forex-learning",
+    "width": 1440,
+    "status": "passed",
+    "chapters": 22,
+    "figures": 6,
+    "quiz": 10,
+    "keyboard": true,
+    "csv": true,
+    "themePersistence": true
+  },
+  {
+    "page": "crypto-learning",
+    "width": 1440,
+    "status": "passed",
+    "chapters": 20,
+    "figures": 6,
+    "quiz": 10,
+    "keyboard": true,
+    "csv": true,
+    "themePersistence": true
+  },
+  {
+    "page": "prop-learning",
+    "width": 1440,
+    "status": "passed",
+    "chapters": 22,
+    "figures": 6,
+    "quiz": 10,
+    "keyboard": true,
+    "csv": true,
+    "themePersistence": true
+  },
+  {
+    "page": "forex-learning",
+    "width": 834,
+    "status": "passed",
+    "chapters": 22,
+    "figures": 6,
+    "quiz": 10,
+    "keyboard": true,
+    "csv": true,
+    "themePersistence": true
+  },
+  {
+    "page": "crypto-learning",
+    "width": 834,
+    "status": "passed",
+    "chapters": 20,
+    "figures": 6,
+    "quiz": 10,
+    "keyboard": true,
+    "csv": true,
+    "themePersistence": true
+  },
+  {
+    "page": "prop-learning",
+    "width": 834,
+    "status": "passed",
+    "chapters": 22,
+    "figures": 6,
+    "quiz": 10,
+    "keyboard": true,
+    "csv": true,
+    "themePersistence": true
+  },
+  {
+    "page": "forex-learning",
+    "width": 390,
+    "status": "passed",
+    "chapters": 22,
+    "figures": 6,
+    "quiz": 10,
+    "keyboard": true,
+    "csv": true,
+    "themePersistence": true
+  },
+  {
+    "page": "crypto-learning",
+    "width": 390,
+    "status": "passed",
+    "chapters": 20,
+    "figures": 6,
+    "quiz": 10,
+    "keyboard": true,
+    "csv": true,
+    "themePersistence": true
+  },
+  {
+    "page": "prop-learning",
+    "width": 390,
+    "status": "passed",
+    "chapters": 22,
+    "figures": 6,
+    "quiz": 10,
+    "keyboard": true,
+    "csv": true,
+    "themePersistence": true
+  },
+  {
+    "page": "forex-learning",
+    "width": 320,
+    "status": "passed",
+    "chapters": 22,
+    "figures": 6,
+    "quiz": 10,
+    "keyboard": true,
+    "csv": true,
+    "themePersistence": true
+  },
+  {
+    "page": "crypto-learning",
+    "width": 320,
+    "status": "passed",
+    "chapters": 20,
+    "figures": 6,
+    "quiz": 10,
+    "keyboard": true,
+    "csv": true,
+    "themePersistence": true
+  },
+  {
+    "page": "prop-learning",
+    "width": 320,
+    "status": "passed",
+    "chapters": 22,
+    "figures": 6,
+    "quiz": 10,
+    "keyboard": true,
+    "csv": true,
+    "themePersistence": true
+  }
+]

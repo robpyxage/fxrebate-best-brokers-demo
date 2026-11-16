@@ -6,3 +6,6 @@
 
 ## Six resources — local iteration
 Source import and coverage: complete. Shared branded article/index implementation: complete. Local calculators, comparison worksheets and navigation: complete. Unit/contract/browser/visual verification: complete. User local design review: complete. Vercel publication: complete. GitHub repository handoff: prepared.
+
+## Educational guides — November 2026
+Source/brand inspection, local implementation, interactive QA and responsive review complete. User visual review pending. Update the shared GitHub repository and Vercel only after the user reviews the local version.

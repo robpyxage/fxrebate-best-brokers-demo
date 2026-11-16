@@ -2,6 +2,7 @@ import {test} from 'node:test';
 import assert from 'node:assert/strict';
 import {readFileSync,existsSync} from 'node:fs';
 import {pages,sectionsFor,renderPage} from '../src/content-pages.mjs';
+import {learningPages} from '../src/learning-data.mjs';
 
 const normalize=text=>text.replace(/\s+/g,'').replaceAll('→','');
 function plain(html){return html.replace(/<[^>]*>/g,'').replace(/&amp;/g,'&').replace(/&lt;/g,'<').replace(/&gt;/g,'>').replace(/&quot;/g,'"').replace(/&#39;/g,"'");}
@@ -24,7 +25,7 @@ test('all six source documents retain every content block and table cell',()=>{
 });
 
 test('generated pages have working local routes, unique anchors and preview indexing protection',()=>{
- const paths=new Set([...pages.map(p=>p.path),'/preview','/brokers/best-forex-brokers']);
+ const paths=new Set([...pages.map(p=>p.path),...learningPages.map(p=>p.path),'/preview','/brokers/best-forex-brokers']);
  for(const page of pages){
   const html=readFileSync(`output/site${page.path}/index.html`,'utf8');
   assert.equal((html.match(/<h1\b/g)||[]).length,1);

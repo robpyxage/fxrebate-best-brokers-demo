@@ -7,3 +7,6 @@ Use a dependency-free Node static renderer, reusable broker card, catalog adapte
 3. Build all six routes plus /preview; add functional illustrative calculators and editable guide comparisons.
 4. Run content coverage, route, responsive, keyboard and theme checks locally. Keep previous broker page working.
 5. No Vercel deployment or GitHub push during this iteration.
+
+## Educational guides
+Use `scripts/import-learning-documents.py` to project the three original DOCX files without losing their figures, paragraphs or tables. `src/learning-pages.mjs` uses the existing content page shell and generates three routes. `npm run qa:learning` runs optional browser QA. Local server port 4173; `/preview` presents nine resource pages and the earlier broker page.

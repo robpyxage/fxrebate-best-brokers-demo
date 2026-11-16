@@ -1,5 +1,11 @@
 # FXRebate — Best Forex Brokers 2026
 
+## Three educational guides — local review, 16 November 2026
+
+Three source-preserving guides are available locally at `/learn/what-is-a-forex-broker`, `/learn/what-is-a-crypto-exchange` and `/learn/what-is-a-prop-firm`. Browse all nine topic resources at `/preview`; the original Best Forex Brokers page is the tenth page. New guides use the existing Satoshi, FXRebate branding and light/dark theme. They include accessible chapters, 18 responsive diagrams reconstructed from the source figures, expandable FAQs and quizzes, comparison worksheets and related links. Source text, tables, examples and editorial notes are retained from the three client documents. Work in this section is local only, awaiting review before GitHub/Vercel updates.
+
+The ordered content projection is `input/pages-2026-11-16/content.json`; the original Word files remain local and ignored by Git. `scripts/import-learning-documents.py` regenerates that projection when the originals are present. `assets/learning/` retains the unmodified source illustrations as project references; `src/learning-figures.mjs` defines the visible diagrams and preserves the source examples. The source illustrations are not exposed through a link in the pages. Use `npm run qa:learning` for optional Playwright verification. See `output/pages-2026-11-16/implementation-report.md`.
+
 ## Six additional pages — Vercel review, 27 October 2026
 
 Run `npm run build` and `npm run dev`, then open **http://localhost:4173/preview** to browse the three rebate explainers and three how-to-choose guides for Forex, Crypto and Prop Firms. They reuse the approved fonts, theme, green and responsive design. The original broker page remains at `/brokers/best-forex-brokers` and at `/`.
